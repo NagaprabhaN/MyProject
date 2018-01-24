@@ -1,0 +1,638 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.master.cs" Inherits="Resource_Management.Visitor.Index" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en">
+<head>
+<title>Speculator a Business Category Flat Bootstrap Responsive Website | Home :: w3layouts</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Speculator Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- stylesheet -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/jquery.fatNav.css" rel="stylesheet" type="text/css">
+<link href="css/simplelightbox.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //stylesheet -->
+<!-- online fonts -->
+<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<!-- //online fonts -->
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+</head>
+<body>
+	<!-- header-->
+	<div class="agileits_main jarallax">
+		<div class="container">
+		  <div class="w3ls-header">
+			<div class="w3-agile-logo">
+				<h1><img src="images/i.png" alt=""/><a href="index.html">Speculator Vision</a></h1>
+			</div>
+			<div class="w3layouts-nav-right">
+				<div class="fat-nav">
+					<div class="fat-nav__wrapper">
+						<ul>
+							<li><a href="#index.html">Home</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#workfolio">Workfolio</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#team">Team</a></li>
+							<li><a href="#testinomials">Testimonials</a></li>
+							<li><a href="#contact">Contact</a></li>
+                            <li><a href="../Visitor/Registration/RJobseeker.aspx">Registration</a></li>
+						</ul>
+					</div>
+				</div>
+				<script src="js/jquery.fatNav.js"></script>
+				<script>
+				    (function () {
+
+				        $.fatNav();
+
+				    } ());
+				</script>
+				<div class="user-icon">
+					<a href="#" data-toggle="modal" data-target="#myModal77"><span class="glyphicon glyphicon-user " aria-hidden="true"></span></a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<!-- login -->
+			<div class="modal fade" id="myModal11" tabindex="-1" role="dialog" >
+			   <div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+							<div class="login-grids">
+								<div class="login">
+									<h2>Login</h2>
+									<form action="#" method="post">
+											 <input type="email" class="user" name="email" placeholder="Email" required="">
+											 <input type="password" name="Password" placeholder="Password" required=""> 
+											 <input type="submit" value="Submit">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //login -->		
+		</div>	
+	 </div>		
+<!-- banner -->
+<div class="w3_banner">
+	<div class="container">
+		<div class="slider">
+			<div class="callbacks_container">
+			   <ul class="rslides callbacks callbacks1" id="slider4">
+					<li>	
+						<div class="banner_text_w3layouts">
+							<h3>HR Consulting.</h3>
+							<p>For Human Resource Managment</p>
+							<div class="w3-button text-center">
+								<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+						    </div>
+						</div>	
+					</li>
+					 <li>	
+						<div class="banner_text_w3layouts">
+							<h3>Easy Solution</h3>
+							<p>For Human Resource Managment</p>
+							<div class="w3-button text-center">
+								<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+						    </div>
+						</div>	
+					</li>
+					 <li>	
+						<div class="banner_text_w3layouts">
+							<h3>HR Consulting.</h3>
+							<p>For Human Resource Managment</p>
+							<div class="w3-button text-center">
+								<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+						    </div>
+						</div>	
+					</li>
+				</ul>
+			</div>
+		  <script src="js/responsiveslides.min.js"></script>
+		  <script>
+		      // You can also use "$(window).load(function() {"
+		      $(function () {
+		          // Slideshow 4
+		          $("#slider4").responsiveSlides({
+		              auto: true,
+		              pager: true,
+		              nav: true,
+		              speed: 500,
+		              namespace: "callbacks",
+		              before: function () {
+		                  $('.events').append("<li>before event fired.</li>");
+		              },
+		              after: function () {
+		                  $('.events').append("<li>after event fired.</li>");
+		              }
+		          });
+
+		      });
+		 </script>
+	   </div>
+	</div>   
+</div>
+</div>
+<!-- //banner -->
+<!-- about -->
+<div class="w3ls-about jarallax" id="about">
+	<div class="container">
+		<div class="col-md-6 col-sm-12 agileinfo-about-left">
+			<img src="images/2.jpg" alt=" " class="img-responsive" />
+	    </div>
+		<div class="col-md-6 col-sm-12 agileinfo-about-right">
+			<h3 class="h3-w3l">About us</h3>
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis libero, accumsan vitae urna vel, porttitor ultricies nulla.Ut hendrerit volutpat orci, id tincidunt est vestibulum ac.ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vulputate quis justo id egestas.Fusce et congue nibh, ut ullamcorper magna. Donec ac massa tincidunt, fringilla sapien vel, tempus massa.</p>
+			<button class="btn btn-primary text-center button_w3layouts" data-toggle="modal" data-target="#myModal">READ MORE<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
+		</div>
+	</div>
+</div>
+<!-- //about -->
+<!-- Tooltip -->
+<div class="tooltip-content">
+	<div class="modal fade features-modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-md">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title text-center">speculator</h4>
+				</div>
+				<div class="modal-body">
+					<img src="images/3.jpg" class="img-responsive" alt="image">
+					<p>Fusce et congue nibh, ut ullamcorper magna. Donec ac massa tincidunt, fringilla sapien vel, tempus massa. Vestibulum felis leo, tincidunt sit amet tristique accumsan. In vitae dapibus metus. Donec nec massa non nulla mattis aliquam egestas et mi.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //Tooltip -->
+<!-- workfolio-->
+<div class="w3ls-workfolio text-center jarallax" id="workfolio">
+	<div class="container">
+		<div class="w3l-workfolio">
+			<h3 class="h3-w3l">workfolio</h3>
+			<span class="w3-line"></span>
+			<p>Praesent imperdiet mollis odio, eget sodales tortor porttitor ac. Proin hendrerit viverra luctus. Praesent condimentum urna eros, sed porta neque dictum ac.</p>
+		</div>
+		<div class="w3ls-wfgrid">
+		  <div class="col-md-3 col-sm-3 col-xs-3 wls-wfgrid1">
+				<div class="gallery sec1">
+					<a href="images/6.jpg" class="big"><img src="images/6.jpg" alt=" " class="img-responsive"/>
+						<div class="w3agile-text">
+							<h5>Title</h5>
+						</div>
+					</a>
+				</div>
+				<div class="gallery sec2">
+					<a href="images/7.jpg" class="big"><img src="images/7.jpg" alt=" " class="img-responsive"/>
+						<div class="w3agile-text">
+							<h5>Title</h5>
+						</div>
+					</a>	
+				</div>
+		  </div>		
+		  <div class="col-md-3 col-sm-3 col-xs-3  wls-wfgrid1">
+				<div class="gallery sec1">
+					<a href="images/8.jpg" class="big"><img src="images/8.jpg" alt=" " class="img-responsive"/>
+						<div class="w3agile-text w3ls-text">
+							<h5>Title</h5>
+						</div>
+					</a>	
+				</div>
+				<div class="gallery sec2">
+					<a href="images/9.jpg" class="big"><img src="images/9.jpg" alt=" " class="img-responsive"/>
+						<div class="w3agile-text w3ls-text1">
+							<h5>Title</h5>
+						</div>
+					</a>	
+				</div>
+		  </div>
+		  <div class="col-md-3 col-sm-3 col-xs-3 wls-wfgrid1">
+				<div class="gallery sec1">
+					<a href="images/9.jpg" class="big"><img src="images/9.jpg" alt=" " class="img-responsive"/>
+						<div class="w3agile-text w3ls-text1">
+							<h5>Title</h5>
+						</div>
+					</a>
+				</div>
+				<div class="gallery sec2">
+					<a href="images/8.jpg" class="big"><img src="images/8.jpg" alt=" " class="img-responsive"/>
+						<div class="w3agile-text w3ls-text">
+							<h5>Title</h5>
+						</div>
+					</a>	
+				</div>
+		 </div>	
+		 <div class="col-md-3 col-sm-3 col-xs-3 wls-wfgrid1">
+				<div class="gallery sec1">
+				    <a href="images/6.jpg" class="big"><img src="images/6.jpg" alt="" class="img-responsive" />
+					<div class="w3agile-text">
+						<h5>Title</h5>
+					</div>
+				</a>	
+				</div>
+				<div class="gallery sec2">
+					<a href="images/7.jpg" class="big"><img src="images/7.jpg" alt=" " class="img-responsive"/>
+						<div class="w3agile-text">
+							<h5>Title</h5>
+						</div>
+					</a>	
+				</div>
+		 </div>
+        <div class="clearfix"></div>	
+       </div>		
+   </div>
+</div>   
+<!-- //workfolio -->
+<!-- services -->
+<div class="w3ls-services jarallax" id="services">
+	<div class="container">
+		<h3 class="h3-w3l">services</h3>
+		<span class="w3-line"></span>
+		<div class="services-head">
+			<div class="col-md-3 col-sm-6 col-xs-6 wthree-s1 text-center">
+				 <span class="fa fa-industry sicon" aria-hidden="true"></span>
+				 <h4>service1</h4>
+				 <p>Praesent imperdiet mollis odio, eget sodales tortor porttitor.Vac turpis egestas tortor.</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 wthree-s1  s2-end text-center">
+				 <span class="fa fa-puzzle-piece sicon" aria-hidden="true"></span>
+				 <h4>service2</h4>
+				 <p>Praesent imperdiet mollis odio, eget sodales tortor porttitor.Vac turpis egestas tortor.</p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 wthree-s1 text-center">
+				<span class="fa fa-users sicon" aria-hidden="true"></span>
+				 <h4>service3</h4>
+				 <p>Praesent imperdiet mollis odio, eget sodales tortor porttitor,Vac turpis egestas tortor.</p>
+			</div>	
+			<div class="col-md-3 col-sm-6 col-xs-6 text-center wthree-s1 s1-end">
+				 <span class="fa fa-shield sicon" aria-hidden="true"></span>
+				 <h4>service4</h4>
+				 <p>Praesent imperdiet mollis odio, eget sodales tortor porttitor.Vac turpis egestas tortor.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>		
+	</div>
+</div>	
+<!-- //services -->
+<!-- team -->
+<div class="w3ls-team jarallax" id="team">
+	<div class="container">
+		<h3 class="h3-w3l">our team</h3>
+		<span class="w3-line"></span>
+		<div class="team-grids">
+			<div class="col-md-3 col-sm-3 col-xs-3 w3_agileits-team1 text-center">
+				<img class="img-w3l t1-wthree img-responsive" src="images/a.jpg" alt="">
+				<h5>Elmore</h5>
+				<p>Lorem ipsum</p>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter  icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus  icon-border googleplus"> </a></li>
+					</ul>
+				</div> 
+			</div>
+			<div class="col-md-3  col-sm-3 col-xs-3  w3_agileits-team1 text-center">
+				<img class="img-w3l t1-wthree img-responsive" src="images/b.jpg" alt="">
+				<h5>Blanton</h5>
+				<p>Lorem ipsum</p>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook  icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus  icon-border googleplus"> </a></li>
+					</ul>
+				</div> 
+			</div>
+			<div class="col-md-3  col-sm-3 col-xs-3 w3_agileits-team1 text-center">
+				<img class="img-w3l t1-wthree img-responsive" src="images/c.jpg" alt="">
+				<h5> Bass</h5>
+				<p>Lorem ipsum</p>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook  icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter  icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus  icon-border googleplus"> </a></li>
+					</ul>
+			   </div>
+			</div>
+			<div class="col-md-3  col-sm-3 col-xs-3 w3_agileits-team1 t1 text-center">
+				<img class="img-w3l t1-wthree img-responsive" src="images/d.jpg" alt="">
+				<h5>Dandridge</h5>
+				<p>Lorem ipsum</p>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook  icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter  icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus  icon-border googleplus"> </a></li>
+					</ul>
+			   </div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3  w3_agileits-team1 t2 text-center">
+				<img class="img-w3l t1-wthree img-responsive" src="images/e.jpg" alt="">
+				<h5>Halpin</h5>
+				<p>Lorem ipsum</p>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook  icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter  icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus  icon-border googleplus"> </a></li>
+					</ul>
+			   </div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3 w3_agileits-team1 t2 text-center">
+				<img class="img-w3l t1-wthree img-responsive" src="images/f.jpg" alt="">
+				<h5>Jesse </h5>
+				<p>Lorem ipsum</p>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter  icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus  icon-border googleplus"> </a></li>
+					</ul>
+				</div> 
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3 w3_agileits-team1 t2 text-center">
+				<img class="img-w3l t1-wthree img-responsive" src="images/g.jpg" alt="">
+				<h5>Jarvis</h5>
+				<p>Lorem ipsum</p>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook  icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter  icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus  icon-border googleplus"> </a></li>
+					</ul>
+				</div> 
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-3  w3_agileits-team1 t1 t2 text-center">
+				<img class="img-w3l t1-wthree img-responsive" src="images/h.jpg" alt="">
+				<h5>Thomas</h5>
+				<p>Lorem ipsum</p>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook  icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter  icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus  icon-border googleplus"> </a></li>
+					</ul>
+			   </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>	
+</div>	
+<!-- //team -->
+<!-- testimonials -->
+<div class="testimonials jarallax" id="testinomials">
+	<div class="container"> 
+		<h3 class="h3-w3l">Testimonials</h3>
+		<span class="w3-line"></span>
+		<div class="agile_testimonials_grids">
+			<ul id="flexiselDemo1">	
+				<li>
+					<div class="agile_testimonials_grid">
+						<div class="agile_testimonials_grid1">
+							<div class="w3_agile_testimonials_grid">
+								<div class="w3_agile_testimonials_grid_left">
+									<img src="images/13.jpg" alt=" " class="img-responsive" />
+								</div>
+							</div>
+							<div class="w3_agile_testimonials_grid_right test-tooltip">
+							   <p>Vivamus sed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et 
+								malesuada fames ac turpis egestas.Sed lorem enim, rutrum quis diam nec.</p>
+									<h4>Tyson</h4>
+									
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="agile_testimonials_grid">
+						<div class="agile_testimonials_grid1">
+						<div class="w3_agile_testimonials_grid_right test-tooltip1">
+							<p>Vac turpis egestas.Sed lorem enim, rutrum quis ed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et 
+									malesuada fames ac turpis egestas diam nec, molestie.</p>
+							<h4>Alejandra</h4>
+						</div>
+						<div class="w3_agile_testimonials_grid">
+								<div class="w3_agile_testimonials_grid_left">
+									<img src="images/12.jpg" alt=" " class="img-responsive" />
+								</div>
+						</div>
+						<div class="clearfix"> </div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="agile_testimonials_grid">
+						<div class="agile_testimonials_grid1">
+							<div class="w3_agile_testimonials_grid_right test-tooltip1">
+								<p>ivamus turpis egestas.Sed lorem enim, rutrum quis ed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et 
+										malesuada fames ac turpis egestas diam nec, molestie.</p>
+								<h4> Dubois</h4>
+										
+							</div>
+							<div class="w3_agile_testimonials_grid">
+								<div class="w3_agile_testimonials_grid_left">
+									<img src="images/10.jpg" alt=" " class="img-responsive" />
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="agile_testimonials_grid">
+						<div class="agile_testimonials_grid1">
+							<div class="w3_agile_testimonials_grid">
+								<div class="w3_agile_testimonials_grid_left">
+									<img src="images/11.jpg" alt=" " class="img-responsive" />
+								</div>
+							</div>
+							<div class="w3_agile_testimonials_grid_right test-tooltip">
+							<p>turpis egestas.Sed lorem enim, rutrum quis ed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et 
+								malesuada fames ac turpis egestas diam nec, molestieSed lorem enim, rutrum quis diam nec.</p>
+									<h4>Phillips</h4>
+									
+								</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</li>	
+			</ul>
+			<script type="text/javascript">
+			    $(window).load(function () {
+			        $("#flexiselDemo1").flexisel({
+			            visibleItems: 1,
+			            animationSpeed: 1500,
+			            autoPlay: false,
+			            autoPlaySpeed: 3500,
+			            pauseOnHover: true,
+			            enableResponsiveBreakpoints: true,
+			            responsiveBreakpoints: {
+			                portrait: {
+			                    changePoint: 480,
+			                    visibleItems: 1
+			                },
+			                landscape: {
+			                    changePoint: 640,
+			                    visibleItems: 1
+			                },
+			                tablet: {
+			                    changePoint: 768,
+			                    visibleItems: 1
+			                }
+			            }
+			        });
+
+			    });
+			</script>
+			<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		</div>
+	</div>
+</div>
+<!-- //testimonials -->
+<!-- contact -->
+<div class="w3_agile-contact jarallax" id="contact">
+	<div class="container"> 
+		<h3 class="h3-w3l">get in touch</h3>
+		<span class="w3-line"></span>
+		<div class="w3l-workfolio text-center"><p>turpis egestas.Sed lorem enim, rutrum quis ed porttitor felis. Pellentesque habitant morbi tristique senectus et</p></div>
+        <div class="agile-contact text-center">
+			<div class="col-md-3 col-sm-3  col-xs-6 w3-mail">
+				<span class="icon fa fa-phone" aria-hidden="true"></span>
+				<span class="text">call us:</span><p>+123 456 789<br>+123 456 789</p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 w3-mail">
+				<span class="fa fa-envelope icon" aria-hidden="true"></span>
+				<span class="text">Mail us:</span><p><a href="mailto:info@example.com">info@example.com</a><a href="mailto:info@example.com">info@example.com</a></p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 w3-mail">
+				<span class="fa fa-map-marker icon" aria-hidden="true"></span>
+				<span class="text">Address:</span><p>Cottrill Lane<br>Saint Louis,Missouri.</p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 w3-mail">
+				<span class="fa fa-angle-double-right icon" aria-hidden="true"></span>
+				<span class="text">Follow us:</span>
+				<div class="social-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook  icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter  icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li>
+					</ul>
+				</div> 
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="agileits_w3layouts-form">
+			<form action="#" method="post" class="agile_form">
+					<input type="text" name="name" class="username" placeholder="your name" required="">
+					<input type="email" name="name" class="username" placeholder="your mail" required="">
+					<input type="text" name="name" class="username" placeholder="phone number" required="">
+					<textarea placeholder="your message" required=""></textarea>
+				    <input type="submit" value="send">
+			</form>
+		</div>
+	</div>	
+</div>	
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+<!-- //contact -->
+<!-- footer -->
+<div class="agileits_w3layouts-map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206999.9229094028!2d-94.68036438842559!3d38.28329754183497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0e6d54822e37d%3A0xb55bc4590466bd72!2sMissouri%2C+USA!5e0!3m2!1sen!2sin!4v1488516820426" style="border:0" allowfullscreen></iframe>
+</div>
+<div class="agile-footer">
+	<div class="container">
+		<div class="w3_agile-copyright text-center">
+			<p>© 2017 Speculator. All rights reserved | Design by <a href="//w3layouts.com/">W3layouts</a></p>
+		</div>
+	</div>
+</div>	
+<!-- //footer -->
+<!--<script src="js/jarallax.js"></script>-->
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+    /* init Jarallax */
+    $('.jarallax').jarallax({
+        speed: 0.5,
+        imgWidth: 1366,
+        imgHeight: 768
+    })
+</script>
+<script type="text/javascript" src="js/simple-lightbox.js"></script>
+<script>
+    $(function () {
+        var $gallery = $('.gallery a').simpleLightbox();
+
+        $gallery.on('show.simplelightbox', function () {
+            console.log('Requested for showing');
+        })
+		.on('shown.simplelightbox', function () {
+		    console.log('Shown');
+		})
+		.on('close.simplelightbox', function () {
+		    console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function () {
+		    console.log('Closed');
+		})
+		.on('change.simplelightbox', function () {
+		    console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function () {
+		    console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function () {
+		    console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function () {
+		    console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function () {
+		    console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function () {
+		    console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function () {
+		    console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function () {
+		    console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function (e) {
+		    console.log('No image found, go to the next/prev');
+		    console.log(e);
+		});
+    });
+</script>
+<script src="js/toTop.js" charset="utf-8"></script>
+<script>
+    $('body').toTop({ css: {
+        position: "fixed",
+        right: '3rem',
+        bottom: '1rem',
+        fontSize: '5rem',
+        cursor: 'pointer',
+        color: '#000;'
+    }
+    });
+</script>
+</body>
+</html>

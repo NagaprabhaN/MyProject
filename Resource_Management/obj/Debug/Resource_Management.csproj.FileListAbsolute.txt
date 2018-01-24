@@ -1,0 +1,5 @@
+C:\Users\Prabha\documents\visual studio 2010\Projects\Resource_Management\Resource_Management\bin\Resource_Management.dll
+C:\Users\Prabha\documents\visual studio 2010\Projects\Resource_Management\Resource_Management\bin\Resource_Management.pdb
+C:\Users\Prabha\documents\visual studio 2010\Projects\Resource_Management\Resource_Management\obj\Debug\Resource_Management.dll
+C:\Users\Prabha\documents\visual studio 2010\Projects\Resource_Management\Resource_Management\obj\Debug\Resource_Management.pdb
+C:\Users\Prabha\documents\visual studio 2010\Projects\Resource_Management\Resource_Management\obj\Debug\Resource_Management.csprojResolveAssemblyReference.cache

@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A60F882-A594-4B08-9316-97F13D30D97D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Resource_Management</RootNamespace>
+    <AssemblyName>Resource_Management</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Approve_candidates.aspx" />
+    <Content Include="Admin\A_Employer.aspx" />
+    <Content Include="Admin\A_HRStaff.aspx" />
+    <Content Include="Admin\A_Jobseeker.aspx" />
+    <Content Include="Admin\css\bootstrap.css" />
+    <Content Include="Admin\css\flexslider.css" />
+    <Content Include="Admin\css\font-awesome.css" />
+    <Content Include="Admin\css\lightbox.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\Domain.aspx" />
+    <Content Include="Admin\External_services.aspx" />
+    <Content Include="Admin\fonts\fontawesome-webfont.svg" />
+    <Content Include="Admin\images\1.jpg" />
+    <Content Include="Admin\images\10.jpg" />
+    <Content Include="Admin\images\11.jpg" />
+    <Content Include="Admin\images\12.jpg" />
+    <Content Include="Admin\images\13.jpg" />
+    <Content Include="Admin\images\3.jpg" />
+    <Content Include="Admin\images\4.jpg" />
+    <Content Include="Admin\images\5.jpg" />
+    <Content Include="Admin\images\6.jpg" />
+    <Content Include="Admin\images\7.jpg" />
+    <Content Include="Admin\images\8.jpg" />
+    <Content Include="Admin\images\9.jpg" />
+    <Content Include="Admin\images\arrow.png" />
+    <Content Include="Admin\images\close.png" />
+    <Content Include="Admin\images\g1.jpg" />
+    <Content Include="Admin\images\g2.jpg" />
+    <Content Include="Admin\images\g3.jpg" />
+    <Content Include="Admin\images\g4.jpg" />
+    <Content Include="Admin\images\g5.jpg" />
+    <Content Include="Admin\images\g6.jpg" />
+    <Content Include="Admin\images\g7.jpg" />
+    <Content Include="Admin\images\next.png" />
+    <Content Include="Admin\images\prev.png" />
+    <Content Include="Admin\images\s1.jpg" />
+    <Content Include="Admin\images\t1.jpg" />
+    <Content Include="Admin\images\t2.jpg" />
+    <Content Include="Admin\images\t3.jpg" />
+    <Content Include="Admin\images\t4.jpg" />
+    <Content Include="Admin\js\bootstrap.js" />
+    <Content Include="Admin\js\easing.js" />
+    <Content Include="Admin\js\jarallax.js" />
+    <Content Include="Admin\js\jquery-1.11.1.min.js" />
+    <Content Include="Admin\js\jquery.flexslider.js" />
+    <Content Include="Admin\js\lightbox-plus-jquery.min.js" />
+    <Content Include="Admin\js\move-top.js" />
+    <Content Include="Admin\js\SmoothScroll.min.js" />
+    <Content Include="Admin\Placed_Record.aspx" />
+    <Content Include="Admin\Requirement.aspx" />
+    <Content Include="Employer\Change_pwd.aspx" />
+    <Content Include="Employer\css\bootstrap.css" />
+    <Content Include="Employer\css\flexslider.css" />
+    <Content Include="Employer\css\font-awesome.css" />
+    <Content Include="Employer\css\lightbox.css" />
+    <Content Include="Employer\css\style.css" />
+    <Content Include="Employer\Employer.aspx" />
+    <Content Include="Employer\fonts\fontawesome-webfont.svg" />
+    <Content Include="Employer\images\1.jpg" />
+    <Content Include="Employer\images\10.jpg" />
+    <Content Include="Employer\images\11.jpg" />
+    <Content Include="Employer\images\12.jpg" />
+    <Content Include="Employer\images\13.jpg" />
+    <Content Include="Employer\images\3.jpg" />
+    <Content Include="Employer\images\4.jpg" />
+    <Content Include="Employer\images\5.jpg" />
+    <Content Include="Employer\images\6.jpg" />
+    <Content Include="Employer\images\7.jpg" />
+    <Content Include="Employer\images\8.jpg" />
+    <Content Include="Employer\images\9.jpg" />
+    <Content Include="Employer\images\arrow.png" />
+    <Content Include="Employer\images\close.png" />
+    <Content Include="Employer\images\g1.jpg" />
+    <Content Include="Employer\images\g2.jpg" />
+    <Content Include="Employer\images\g3.jpg" />
+    <Content Include="Employer\images\g4.jpg" />
+    <Content Include="Employer\images\g5.jpg" />
+    <Content Include="Employer\images\g6.jpg" />
+    <Content Include="Employer\images\g7.jpg" />
+    <Content Include="Employer\images\next.png" />
+    <Content Include="Employer\images\prev.png" />
+    <Content Include="Employer\images\s1.jpg" />
+    <Content Include="Employer\images\t1.jpg" />
+    <Content Include="Employer\images\t2.jpg" />
+    <Content Include="Employer\images\t3.jpg" />
+    <Content Include="Employer\images\t4.jpg" />
+    <Content Include="Employer\js\bootstrap.js" />
+    <Content Include="Employer\js\easing.js" />
+    <Content Include="Employer\js\jarallax.js" />
+    <Content Include="Employer\js\jquery-1.11.1.min.js" />
+    <Content Include="Employer\js\jquery.flexslider.js" />
+    <Content Include="Employer\js\lightbox-plus-jquery.min.js" />
+    <Content Include="Employer\js\move-top.js" />
+    <Content Include="Employer\js\SmoothScroll.min.js" />
+    <Content Include="Employer\PlacedRecord.aspx" />
+    <Content Include="Employer\requirement.aspx" />
+    <Content Include="HRStaff\candidates_list.aspx" />
+    <Content Include="HRStaff\change_password.aspx" />
+    <Content Include="HRStaff\fonts\change_password.aspx" />
+    <Content Include="HRStaff\css\bootstrap.css" />
+    <Content Include="HRStaff\css\flexslider.css" />
+    <Content Include="HRStaff\css\font-awesome.css" />
+    <Content Include="HRStaff\css\lightbox.css" />
+    <Content Include="HRStaff\css\style.css" />
+    <Content Include="HRStaff\fonts\fontawesome-webfont.svg" />
+    <Content Include="HRStaff\HRStaff.aspx" />
+    <Content Include="HRStaff\images\1.jpg" />
+    <Content Include="HRStaff\images\10.jpg" />
+    <Content Include="HRStaff\images\11.jpg" />
+    <Content Include="HRStaff\images\12.jpg" />
+    <Content Include="HRStaff\images\13.jpg" />
+    <Content Include="HRStaff\images\3.jpg" />
+    <Content Include="HRStaff\images\4.jpg" />
+    <Content Include="HRStaff\images\5.jpg" />
+    <Content Include="HRStaff\images\6.jpg" />
+    <Content Include="HRStaff\images\7.jpg" />
+    <Content Include="HRStaff\images\8.jpg" />
+    <Content Include="HRStaff\images\9.jpg" />
+    <Content Include="HRStaff\images\arrow.png" />
+    <Content Include="HRStaff\images\close.png" />
+    <Content Include="HRStaff\images\g1.jpg" />
+    <Content Include="HRStaff\images\g2.jpg" />
+    <Content Include="HRStaff\images\g3.jpg" />
+    <Content Include="HRStaff\images\g4.jpg" />
+    <Content Include="HRStaff\images\g5.jpg" />
+    <Content Include="HRStaff\images\g6.jpg" />
+    <Content Include="HRStaff\images\g7.jpg" />
+    <Content Include="HRStaff\images\next.png" />
+    <Content Include="HRStaff\images\prev.png" />
+    <Content Include="HRStaff\images\s1.jpg" />
+    <Content Include="HRStaff\images\t1.jpg" />
+    <Content Include="HRStaff\images\t2.jpg" />
+    <Content Include="HRStaff\images\t3.jpg" />
+    <Content Include="HRStaff\images\t4.jpg" />
+    <Content Include="HRStaff\js\bootstrap.js" />
+    <Content Include="HRStaff\js\easing.js" />
+    <Content Include="HRStaff\js\jarallax.js" />
+    <Content Include="HRStaff\js\jquery-1.11.1.min.js" />
+    <Content Include="HRStaff\js\jquery.flexslider.js" />
+    <Content Include="HRStaff\js\lightbox-plus-jquery.min.js" />
+    <Content Include="HRStaff\js\move-top.js" />
+    <Content Include="HRStaff\js\SmoothScroll.min.js" />
+    <Content Include="HRStaff\placed_list.aspx" />
+    <Content Include="HRStaff\Requirments.aspx" />
+    <Content Include="Jobseeker\changePwd.aspx" />
+    <Content Include="Jobseeker\css\bootstrap.css" />
+    <Content Include="Jobseeker\css\flexslider.css" />
+    <Content Include="Jobseeker\css\font-awesome.css" />
+    <Content Include="Jobseeker\css\lightbox.css" />
+    <Content Include="Jobseeker\css\style.css" />
+    <Content Include="Jobseeker\fonts\fontawesome-webfont.svg" />
+    <Content Include="Jobseeker\images\1.jpg" />
+    <Content Include="Jobseeker\images\10.jpg" />
+    <Content Include="Jobseeker\images\11.jpg" />
+    <Content Include="Jobseeker\images\12.jpg" />
+    <Content Include="Jobseeker\images\13.jpg" />
+    <Content Include="Jobseeker\images\3.jpg" />
+    <Content Include="Jobseeker\images\4.jpg" />
+    <Content Include="Jobseeker\images\5.jpg" />
+    <Content Include="Jobseeker\images\6.jpg" />
+    <Content Include="Jobseeker\images\7.jpg" />
+    <Content Include="Jobseeker\images\8.jpg" />
+    <Content Include="Jobseeker\images\9.jpg" />
+    <Content Include="Jobseeker\images\arrow.png" />
+    <Content Include="Jobseeker\images\close.png" />
+    <Content Include="Jobseeker\images\g1.jpg" />
+    <Content Include="Jobseeker\images\g2.jpg" />
+    <Content Include="Jobseeker\images\g3.jpg" />
+    <Content Include="Jobseeker\images\g4.jpg" />
+    <Content Include="Jobseeker\images\g5.jpg" />
+    <Content Include="Jobseeker\images\g6.jpg" />
+    <Content Include="Jobseeker\images\g7.jpg" />
+    <Content Include="Jobseeker\images\next.png" />
+    <Content Include="Jobseeker\images\prev.png" />
+    <Content Include="Jobseeker\images\s1.jpg" />
+    <Content Include="Jobseeker\images\t1.jpg" />
+    <Content Include="Jobseeker\images\t2.jpg" />
+    <Content Include="Jobseeker\images\t3.jpg" />
+    <Content Include="Jobseeker\images\t4.jpg" />
+    <Content Include="Jobseeker\Interview_Status.aspx" />
+    <Content Include="Jobseeker\Jobseeker.aspx" />
+    <Content Include="Jobseeker\js\bootstrap.js" />
+    <Content Include="Jobseeker\js\easing.js" />
+    <Content Include="Jobseeker\js\jarallax.js" />
+    <Content Include="Jobseeker\js\jquery-1.11.1.min.js" />
+    <Content Include="Jobseeker\js\jquery.flexslider.js" />
+    <Content Include="Jobseeker\js\lightbox-plus-jquery.min.js" />
+    <Content Include="Jobseeker\js\move-top.js" />
+    <Content Include="Jobseeker\js\SmoothScroll.min.js" />
+    <Content Include="Visitor\css\bootstrap.css" />
+    <Content Include="Visitor\css\font-awesome.css" />
+    <Content Include="Visitor\css\jquery.fatNav.css" />
+    <Content Include="Visitor\css\simplelightbox.css" />
+    <Content Include="Visitor\css\style.css" />
+    <Content Include="Visitor\fonts\fontawesome-webfont.svg" />
+    <Content Include="Visitor\images\10.jpg" />
+    <Content Include="Visitor\images\11.jpg" />
+    <Content Include="Visitor\images\12.jpg" />
+    <Content Include="Visitor\images\13.jpg" />
+    <Content Include="Visitor\images\15.jpg" />
+    <Content Include="Visitor\images\2.jpg" />
+    <Content Include="Visitor\images\3.jpg" />
+    <Content Include="Visitor\images\4.jpg" />
+    <Content Include="Visitor\images\5.jpg" />
+    <Content Include="Visitor\images\6.jpg" />
+    <Content Include="Visitor\images\7.jpg" />
+    <Content Include="Visitor\images\8.jpg" />
+    <Content Include="Visitor\images\9.jpg" />
+    <Content Include="Visitor\images\a.jpg" />
+    <Content Include="Visitor\images\arrows.png" />
+    <Content Include="Visitor\images\b.jpg" />
+    <Content Include="Visitor\images\bg.jpg" />
+    <Content Include="Visitor\images\c.jpg" />
+    <Content Include="Visitor\images\d.jpg" />
+    <Content Include="Visitor\images\e.jpg" />
+    <Content Include="Visitor\images\f.jpg" />
+    <Content Include="Visitor\images\g.jpg" />
+    <Content Include="Visitor\images\h.jpg" />
+    <Content Include="Visitor\images\i.png" />
+    <Content Include="Visitor\images\left.png" />
+    <Content Include="Visitor\images\right.png" />
+    <Content Include="Visitor\Index.aspx" />
+    <Content Include="Visitor\js\bootstrap.js" />
+    <Content Include="Visitor\js\jarallax.js" />
+    <Content Include="Visitor\js\jquery-1.11.1.min.js" />
+    <Content Include="Visitor\js\jquery.fatNav.js" />
+    <Content Include="Visitor\js\jquery.flexisel.js" />
+    <Content Include="Visitor\js\responsiveslides.min.js" />
+    <Content Include="Visitor\js\simple-lightbox.js" />
+    <Content Include="Visitor\js\SmoothScroll.min.js" />
+    <Content Include="Visitor\js\toTop.js" />
+    <Content Include="Visitor\Registration\css\bootstrap.css" />
+    <Content Include="Visitor\Registration\css\flexslider.css" />
+    <Content Include="Visitor\Registration\css\font-awesome.css" />
+    <Content Include="Visitor\Registration\css\lightbox.css" />
+    <Content Include="Visitor\Registration\css\style.css" />
+    <Content Include="Visitor\Registration\fonts\fontawesome-webfont.svg" />
+    <Content Include="Visitor\Registration\images\1.jpg" />
+    <Content Include="Visitor\Registration\images\10.jpg" />
+    <Content Include="Visitor\Registration\images\11.jpg" />
+    <Content Include="Visitor\Registration\images\12.jpg" />
+    <Content Include="Visitor\Registration\images\13.jpg" />
+    <Content Include="Visitor\Registration\images\3.jpg" />
+    <Content Include="Visitor\Registration\images\4.jpg" />
+    <Content Include="Visitor\Registration\images\5.jpg" />
+    <Content Include="Visitor\Registration\images\6.jpg" />
+    <Content Include="Visitor\Registration\images\7.jpg" />
+    <Content Include="Visitor\Registration\images\8.jpg" />
+    <Content Include="Visitor\Registration\images\9.jpg" />
+    <Content Include="Visitor\Registration\images\arrow.png" />
+    <Content Include="Visitor\Registration\images\close.png" />
+    <Content Include="Visitor\Registration\images\g1.jpg" />
+    <Content Include="Visitor\Registration\images\g2.jpg" />
+    <Content Include="Visitor\Registration\images\g3.jpg" />
+    <Content Include="Visitor\Registration\images\g4.jpg" />
+    <Content Include="Visitor\Registration\images\g5.jpg" />
+    <Content Include="Visitor\Registration\images\g6.jpg" />
+    <Content Include="Visitor\Registration\images\g7.jpg" />
+    <Content Include="Visitor\Registration\images\next.png" />
+    <Content Include="Visitor\Registration\images\prev.png" />
+    <Content Include="Visitor\Registration\images\s1.jpg" />
+    <Content Include="Visitor\Registration\images\t1.jpg" />
+    <Content Include="Visitor\Registration\images\t2.jpg" />
+    <Content Include="Visitor\Registration\images\t3.jpg" />
+    <Content Include="Visitor\Registration\images\t4.jpg" />
+    <Content Include="Visitor\Registration\js\bootstrap.js" />
+    <Content Include="Visitor\Registration\js\easing.js" />
+    <Content Include="Visitor\Registration\js\jarallax.js" />
+    <Content Include="Visitor\Registration\js\jquery-1.11.1.min.js" />
+    <Content Include="Visitor\Registration\js\jquery.flexslider.js" />
+    <Content Include="Visitor\Registration\js\lightbox-plus-jquery.min.js" />
+    <Content Include="Visitor\Registration\js\move-top.js" />
+    <Content Include="Visitor\Registration\js\SmoothScroll.min.js" />
+    <Content Include="Visitor\Registration\REmployer.aspx" />
+    <Content Include="Visitor\Registration\RJobseeker.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Approve_candidates.aspx.cs">
+      <DependentUpon>Approve_candidates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Approve_candidates.aspx.designer.cs">
+      <DependentUpon>Approve_candidates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\A_Employer.aspx.cs">
+      <DependentUpon>A_Employer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\A_Employer.aspx.designer.cs">
+      <DependentUpon>A_Employer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\A_HRStaff.aspx.cs">
+      <DependentUpon>A_HRStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\A_HRStaff.aspx.designer.cs">
+      <DependentUpon>A_HRStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\A_Jobseeker.aspx.cs">
+      <DependentUpon>A_Jobseeker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\A_Jobseeker.aspx.designer.cs">
+      <DependentUpon>A_Jobseeker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Domain.aspx.cs">
+      <DependentUpon>Domain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Domain.aspx.designer.cs">
+      <DependentUpon>Domain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\External_services.aspx.cs">
+      <DependentUpon>External_services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\External_services.aspx.designer.cs">
+      <DependentUpon>External_services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Placed_Record.aspx.cs">
+      <DependentUpon>Placed_Record.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Placed_Record.aspx.designer.cs">
+      <DependentUpon>Placed_Record.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Requirement.aspx.cs">
+      <DependentUpon>Requirement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Requirement.aspx.designer.cs">
+      <DependentUpon>Requirement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BAL\BAL.cs" />
+    <Compile Include="DAL\DLL.cs" />
+    <Compile Include="Employer\Change_pwd.aspx.cs">
+      <DependentUpon>Change_pwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\Change_pwd.aspx.designer.cs">
+      <DependentUpon>Change_pwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\Employer.aspx.cs">
+      <DependentUpon>Employer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\Employer.aspx.designer.cs">
+      <DependentUpon>Employer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\Employer.Master.cs">
+      <DependentUpon>Employer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\Employer.Master.designer.cs">
+      <DependentUpon>Employer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\PlacedRecord.aspx.cs">
+      <DependentUpon>PlacedRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\PlacedRecord.aspx.designer.cs">
+      <DependentUpon>PlacedRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employer\requirement.aspx.cs">
+      <DependentUpon>requirement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employer\requirement.aspx.designer.cs">
+      <DependentUpon>requirement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HRStaff\candidates_list.aspx.cs">
+      <DependentUpon>candidates_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRStaff\candidates_list.aspx.designer.cs">
+      <DependentUpon>candidates_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HRStaff\change_password.aspx.cs">
+      <DependentUpon>change_password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRStaff\change_password.aspx.designer.cs">
+      <DependentUpon>change_password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HRStaff\fonts\change_password.aspx.cs">
+      <DependentUpon>change_password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRStaff\fonts\change_password.aspx.designer.cs">
+      <DependentUpon>change_password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HRStaff\HRStaff.aspx.cs">
+      <DependentUpon>HRStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRStaff\HRStaff.aspx.designer.cs">
+      <DependentUpon>HRStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HRStaff\HRStaff.Master.cs">
+      <DependentUpon>HRStaff.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRStaff\HRStaff.Master.designer.cs">
+      <DependentUpon>HRStaff.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HRStaff\placed_list.aspx.cs">
+      <DependentUpon>placed_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRStaff\placed_list.aspx.designer.cs">
+      <DependentUpon>placed_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HRStaff\Requirments.aspx.cs">
+      <DependentUpon>Requirments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRStaff\Requirments.aspx.designer.cs">
+      <DependentUpon>Requirments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\changePwd.aspx.cs">
+      <DependentUpon>changePwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\changePwd.aspx.designer.cs">
+      <DependentUpon>changePwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\Interview_Status.aspx.cs">
+      <DependentUpon>Interview_Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\Interview_Status.aspx.designer.cs">
+      <DependentUpon>Interview_Status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\Jobseeker.aspx.cs">
+      <DependentUpon>Jobseeker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\Jobseeker.aspx.designer.cs">
+      <DependentUpon>Jobseeker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobseeker\Jobseeker.Master.cs">
+      <DependentUpon>Jobseeker.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobseeker\Jobseeker.Master.designer.cs">
+      <DependentUpon>Jobseeker.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visitor\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Index.Master.cs">
+      <DependentUpon>Index.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Index.Master.designer.cs">
+      <DependentUpon>Index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Registration\Registration.Master.cs">
+      <DependentUpon>Registration.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Registration\Registration.Master.designer.cs">
+      <DependentUpon>Registration.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Registration\REmployer.aspx.cs">
+      <DependentUpon>REmployer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Registration\REmployer.aspx.designer.cs">
+      <DependentUpon>REmployer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Registration\RJobseeker.aspx.cs">
+      <DependentUpon>RJobseeker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Registration\RJobseeker.aspx.designer.cs">
+      <DependentUpon>RJobseeker.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin\fonts\fontawesome-webfont.eot" />
+    <None Include="Admin\fonts\fontawesome-webfont.ttf" />
+    <None Include="Admin\fonts\fontawesome-webfont.woff" />
+    <None Include="Admin\fonts\fontawesome-webfont.woff2" />
+    <None Include="Admin\fonts\FontAwesome.otf" />
+    <None Include="Admin\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Admin\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Employer\fonts\fontawesome-webfont.eot" />
+    <None Include="Employer\fonts\fontawesome-webfont.ttf" />
+    <None Include="Employer\fonts\fontawesome-webfont.woff" />
+    <None Include="Employer\fonts\fontawesome-webfont.woff2" />
+    <None Include="Employer\fonts\FontAwesome.otf" />
+    <None Include="Employer\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Employer\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="HRStaff\fonts\fontawesome-webfont.eot" />
+    <None Include="HRStaff\fonts\fontawesome-webfont.ttf" />
+    <None Include="HRStaff\fonts\fontawesome-webfont.woff" />
+    <None Include="HRStaff\fonts\fontawesome-webfont.woff2" />
+    <None Include="HRStaff\fonts\FontAwesome.otf" />
+    <None Include="HRStaff\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="HRStaff\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Jobseeker\fonts\fontawesome-webfont.eot" />
+    <None Include="Jobseeker\fonts\fontawesome-webfont.ttf" />
+    <None Include="Jobseeker\fonts\fontawesome-webfont.woff" />
+    <None Include="Jobseeker\fonts\fontawesome-webfont.woff2" />
+    <None Include="Jobseeker\fonts\FontAwesome.otf" />
+    <None Include="Jobseeker\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Jobseeker\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Jobseeker\Jobseeker.Master" />
+    <None Include="Visitor\fonts\fontawesome-webfont.eot" />
+    <None Include="Visitor\fonts\fontawesome-webfont.ttf" />
+    <None Include="Visitor\fonts\fontawesome-webfont.woff" />
+    <None Include="Visitor\fonts\fontawesome-webfont.woff2" />
+    <None Include="Visitor\fonts\FontAwesome.otf" />
+    <None Include="Visitor\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Visitor\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Visitor\Registration\fonts\fontawesome-webfont.eot" />
+    <None Include="Visitor\Registration\fonts\fontawesome-webfont.ttf" />
+    <None Include="Visitor\Registration\fonts\fontawesome-webfont.woff" />
+    <None Include="Visitor\Registration\fonts\fontawesome-webfont.woff2" />
+    <None Include="Visitor\Registration\fonts\FontAwesome.otf" />
+    <None Include="Visitor\Registration\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Visitor\Registration\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Visitor\Registration\Registration.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Visitor\Index.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Employer\Employer.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HRStaff\HRStaff.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3090</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
